@@ -1,0 +1,32 @@
+{
+  "name": "react-native-vertical-swipe",
+  "version": "1.0.0",
+  "description": "Vertical swipe for react-native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Rewieer@github.com/Rewieer/react-native-vertical-swipe.git"
+  },
+  "keywords": [
+    "react-native",
+    "swipe",
+    "vertical",
+    "multitouch"
+  ],
+  "author": "Rewieer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rewieer/react-native-vertical-swipe/issues"
+  },
+  "homepage": "https://github.com/Rewieer/react-native-vertical-swipe#readme",
+  "dependencies": {
+    "prop-types": "^15.5.10"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  }
+}
