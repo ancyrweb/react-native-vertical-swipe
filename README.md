@@ -67,6 +67,7 @@ export default Scene;
 - `closeSwipeThreshold` (default: 50) : same, but to the bottom. Note that the threshold starts from the view and not the screen, which means that
 if you put an offsetTop, you wont be able to trigger it from above the view
 - `offsetTop` (default: 0) : the view will goes up to that amount of pixel
+- `startOpened` (default: false) : the swipe will be opened when rendering first
 
 ## Work to do
 - Smoother animation : when the user releases, the animation starts with a null speed, which isn't really fluid enough
