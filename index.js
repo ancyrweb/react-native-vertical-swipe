@@ -81,7 +81,7 @@ class VerticalSwipe extends Component<DefaultProps, Props, State> {
 
     this.state = {
       isAnimating: false,
-      isOpen: false,
+      isOpen: this.props.startOpened,
       position: new Animated.Value(this.props.startOpened === true ? this._openPosition : this._closedPosition),
     };
 
